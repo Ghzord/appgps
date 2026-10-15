@@ -1,10 +1,10 @@
 ﻿// Preencha name e photo com os nomes e os caminhos das fotos em public.
 const teamMembers = [
-  { name: '', photo: '' },
-  { name: '', photo: '' },
-  { name: '', photo: '' },
-  { name: '', photo: '' },
-  { name: '', photo: '' },
+  { name: 'Karina', photo: './equipe/karina.jpg' },
+  { name: 'Guilherme', photo: './equipe/gui.jpg' },
+  { name: 'Nicolas', photo: './equipe/nicolas.jpg' },
+  { name: 'Felipe', photo: './equipe/felipe.jpg' },
+  { name: 'Angelina', photo: './equipe/angelina.jpg' },
 ];
 function Illustration() {
   return <div className="project-illustration" role="img" aria-label="Ilustração de um dispositivo GPS enviando sua posição ao mapa">
